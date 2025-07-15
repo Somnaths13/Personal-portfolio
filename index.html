@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+               <meta charset="UTF-8">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <link rel="stylesheet" href="style.css">
+               <title>PORTFOLIO</title>
+               <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" >
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+          <nav>
+          <img src="images/logo1.png" class="logo1">
+                <ul id="sidemenu">
+                   <li><a href="#header">Home</a></li>
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#services">Services</a></li>
+                   <li><a href="#portfolio">Portfolio</a></li>
+                   <li><a href="#contact">Contacts</a></li>
+                   <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+
+                                                            
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+               <p>Frontend Developer</p>
+               <h1>Hi, I am <span>Somnath</span><br>Mondal from India</h1>
+            </div>
+
+     </div>
+ </div>
+ <!---------ABOUT-------->
+ <div id="about">
+     <div class="container1">
+                   <div class="row">
+                               <div class="about-col-1">
+                                             <img src="images/somnath1.png" alt="">
+                               </div>
+                                <div class="about-col-2">
+                                             <h1 class="sub-title">About Me</h1>
+                      <p>Hi there! I'm Somnath, a passionate frontend developer with a keen eye for detail and a 
+                         love for creating seamless user experiences. With 2 years of experience in the field, I specialize in crafting responsive 
+                        and visually stunning web applications that not only meet but exceed client expectations. My journey 
+                        in frontend development has been driven by a 
+                        deep-seated curiosity and a constant desire to stay 
+                         updated with the latest trends and technologies in the ever-evolving world of web development.
+
+                                             </p>
+                                            <div class="tab-titles">
+                                               <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                               <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                                               <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                                            </div>
+                                             
+                                             
+                                             <div class="tab-contents active-tab" id="skills">
+                                                <ul>
+                                                   <li><span>Frontend </span><br>Developer</li>
+                                                   <li><span> Web Development</span><br>Web App Development</li>
+                                                   <li><span>App Development</span><br>Bulding Android/ios</li>
+                                                </ul>
+                                             </div>
+                                             
+                                             <div class="tab-contents" id="experience">
+                                                <ul>
+                                                   <li><span>B.tech </span>From Techno india University <br></li>
+                                                   <li><span> 10th </span><br>From Laban Hrad Vidyapith</li>
+                                                   <li><span>12th</span><br>From Laban Hrad Vidyapith</li>
+                                                </ul>
+                                             </div>
+                                       
+                                             <div class="tab-contents" id="education">
+                                                <ul>
+                                                   <li><span>Team Lead </span>Student Chapter <br></li>
+                                                   
+                                                </ul>
+                                             </div>
+                                </div>
+                </div>
+               </div>
+ </div>
+ <!--------services--------------->
+ <div id="services">
+   <div class="container">
+      <h1 class="sub-title">Services</h1>
+      <div class="services-list">
+         <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>As a web developer, I will likely benefit from a variety of services to streamline your workflow, 
+               enhance collaboration, and improve productivity.</p>
+               <a href="#">Learn more</a>
+         </div>
+         <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Frontend designer</h2>
+            <p> I as a Frontend developer focus on creating the user interface and user experience 
+               of websites and web applications. </p>
+               <a href="#">Learn more</a>
+         </div>
+         <div>
+            <i class="fa-brands fa-android"></i>
+            <h2>backend designer</h2>
+            <p >I as a Backend developer focus on building and maintaining the server-side logic and infrastructure of web applications. </p>
+               <a href="#">Learn more</a>
+         </div>
+      </div>
+   </div>
+ </div>
+ <!--------PORTFOLIO-->
+ <div id="portfolio">
+   <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+         <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+               <h3>Qr code generator</h3>
+               <p> Qr is a way of life download it from play store.</p>
+               <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+         </div>
+         <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+               <h3>Currency Converter</h3>
+               <p> You can cunvert any type of Currency download it from play store.</p>
+               <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+         </div>
+         <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+               <h3>Online Games</h3>
+               <p>  Online games are the best download it from play store.</p>
+               <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+         </div>
+      </div>
+      <a href="#" class="btn">See More</a>
+   </div>
+ </div>
+ <!--------contact--------->
+ <div id="contact">
+   <div class="container">
+      <div class="row">
+         <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>smsomnaths2004@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>6290316709</p>
+            <div class="social-icons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/portfolioresume.pdf" download class="btn btn2" class="btn btn2">Download Cv</a>
+         </div>
+
+         <div class="contact-right">
+         <form name="submit-to-google-sheet">
+             <input type="text" name="Name" placeholder="Your Name" required>
+             <input type="email" name="email" placeholder="Your email" required>
+             <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+             <button type="submit" class="btn btn2">Submit</button>
+         </form>
+         <span id="msg">Sent messege</span>
+         </div>
+      </div>
+   </div>
+   <div class="copyright">
+      <p>copyright <i class="fa-solid fa-copyright"></i> Somnath Made with <i class="fa-solid fa-heart"></i> Since 2024</p>
+   </div>
+ </div>
+
+        
+ <script>
+
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+   function opentab(tabname){
+      for(tablink of tablinks)
+      {
+         tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents)
+      {
+         tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+   }
+ </script>
+
+ <script>
+
+   var sidemenu = document.getElementById("sidemenu");
+
+   function openmenu()
+   {
+      sidemenu.style.right="0";
+   }
+   function closemenu()
+   {
+      sidemenu.style.right="-200px";
+   }
+ </script>
+
+
+ <script>
+ const scriptURL = 'https://script.google.com/macros/s/AKfycbxHMkb_fKXc1JOogctOsHEXyiJDehfghaSZ_-SuhJCGrYyQHZLM52U_W7owld09755E/exec'
+ const form = document.forms['submit-to-google-sheet']
+ const msg= document.getElementById("msg")
+
+ form.addEventListener('submit', e => {
+   e.preventDefault()
+   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+     .then(Response => {
+      msg.innerHTML = "messege sent successfully"
+      setTimeout(function(){
+         msg.innerHTML = ""
+      },5000)
+      form.reset()
+     })
+     .catch(error => console.error('Error!', error.message))
+ })
+</script>
+
+
+</body>
+</html>
